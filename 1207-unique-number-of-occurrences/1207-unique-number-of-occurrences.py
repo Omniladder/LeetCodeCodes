@@ -13,7 +13,6 @@ class Solution:
         for i in arr:
             if i not in checkSet:
                 if occurenceMap[i] in timesMap:
-                    print(i)
                     return False
                 else:
                     timesMap.add(occurenceMap[i])
